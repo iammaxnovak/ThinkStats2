@@ -2245,7 +2245,6 @@ class Beta:
 
     def Percentile(self, ps):
         """Returns the given percentiles from this distribution.
-
         ps: scalar, array, or list of [0-100]
         """
         ps = np.asarray(ps) / 100
@@ -2352,7 +2351,6 @@ def BinomialCoef(n, k):
 
     n: number of trials
     k: number of successes
-
     Returns: float
     """
     return scipy.misc.comb(n, k)
